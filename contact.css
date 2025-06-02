@@ -1,0 +1,181 @@
+body {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+  
+}
+.nav {
+    background-color: rgb(140, 122, 102);
+    align-items: center;
+    text-align: center;
+}
+.nav .bar img {
+    width: 170px;
+    height: 60px;
+}
+.header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+}
+.header .logo img {
+    width: 150px;
+    height: 80px;
+}
+.header .menu {
+    display: flex;
+    align-items: center;
+}
+.header .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.header .searchBar {
+    display: flex;
+    justify-content: space-between;
+}
+.header .searchBar a i {
+    font-size: 27px;
+    padding: 2rem;
+    color: #fff;
+}
+.header .menu a:hover {
+    letter-spacing: 2px;
+    color: rgb(80, 53, 22);
+}
+.header .searchBar a i:hover {
+    letter-spacing: 3px;
+    color: rgb(80, 53, 22);
+}
+
+
+
+section.contact {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+
+.image img {
+height: 590px;
+width :500px;
+  object-fit: cover;
+}
+
+/* Form section */
+.form-box {
+  padding: 40px;
+  background-color: #ffffff;
+  color: white;
+  
+}
+
+.form-box h2 {
+  padding-bottom: 20px;
+  font-size: 26px;
+  color: white;
+}
+
+.form-box form input,
+.form-box form select,
+.form-box form textarea {
+ width :500px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-box form input::placeholder,
+.form-box form textarea::placeholder {
+  color: #999;
+}
+
+.form-box form select {
+  color: #333;
+}
+
+.form-box form button {
+  padding: 10px 20px;
+  margin:  0px 200px;
+  background-color: rgb(16, 49, 21);
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-box form button:hover {
+  background-color: #593c18;
+  letter-spacing: 2px;
+}
+
+
+.location iframe {
+
+    padding: opx;
+   height: 30vh;
+   width: 1350px;
+    margin: 0px;
+}
+
+.footer{
+ background-color: rgb(80, 53, 22);
+ text-align: center;
+}
+
+.footer  h1{
+    font-size: 30px;
+    color: #fff;
+  padding: 2rem 0rem;
+}
+.footer .menu a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.footer .menu a:hover{
+    letter-spacing: 2px;
+    color: #000000;
+}
+.footer .icons a{
+
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.footer .icons a:hover{
+    letter-spacing: 2px;
+    color: #1d5c14;
+}
+.footer  a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.nave {
+    background-color: #1d5c14;
+    align-items: center;
+    text-align: center;
+}
+.nave .bar img {
+    width: 170px;
+    height: 60px;
+}
+html{
+    scroll-behavior: smooth;
+}
+img:hover{
+   transform: scale(1.03);
+}
+* {margin: 0;}
